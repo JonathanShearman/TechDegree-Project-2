@@ -1,0 +1,440 @@
+/* Fonts ---------------*/
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/* Base Element Styles ---------------*/
+
+* {box-sizing: border-box;}
+
+li, p {
+  font-size: 1.2em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* Navigation ---------------*/
+
+.main-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+.name {
+  margin: 2px 2px;
+  padding: 2px 2px;
+  text-align: center;
+  color: darkblue;
+  font-size: 27px;
+}
+
+.main-nav li {
+display: block;
+text-transform: uppercase;
+font-weight: 700;
+color: darkgrey;
+background-color: white;
+text-align: center;
+line-height: 2;
+margin: 10px 10px;
+padding: 0px 0px;
+font-size: 12px;
+width: 90%;
+}
+
+.nav a {
+  font-family: 'Ubutu', sans-serif;
+  font-style: italic;
+  text-transform: none;
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+  font-weight: 700;
+  box-shadow: 0 2px 5px;
+}
+
+.list {
+  margin: 10px;
+  padding: 10px;
+}
+
+a:link {
+  color: darkgrey;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+a:hover {
+  color: #0000e6;
+}
+
+.profile-img {
+  width: 70%;
+  margin-top: 24px;
+  margin-left: 15%;
+}
+
+.intro p {
+  text-align: center;
+  font-size: 23px;
+  margin: 10px 10px;
+  color: white;
+}
+
+.intro h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Main Content ---------------*/
+
+.main-content {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F8F8F8;
+}
+
+.main-content h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.main-content img {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.main-content h2 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.main-content p {
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+}
+
+.interests img {
+  width: 70%;
+  margin-left: 15%;
+  height: 156px;
+}
+
+#interests h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: bold;
+  padding: 25px;
+  margin: 10px;
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+#interests h3 {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-size: 1.2em;
+}
+
+#interests p {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-size: 1.1em;
+}
+
+/* Footer Content ---------------*/
+
+.contact h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: underline;
+}
+
+.contact p {
+  font-size: 12px;
+  margin: 10px 10px;
+  text-align: center;
+  color: white;
+}
+
+.contact-list li {
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}
+
+.info {
+  display: inline-block;
+  margin: 20px 5px;
+  padding: 20px 5px;
+}
+
+.info p {
+  display: inline;
+  font-weight: 500;
+  margin-right: 50px;
+}
+
+.info h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  padding-top: 50px;
+}
+
+.info a {
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+.info li {
+  font-size: 10px;
+}
+
+/* Layout Containers ---------------*/
+
+.contact {
+  background-color: #328EEA;
+}
+
+.wrap {
+  min-height: 100vh;
+}
+
+.body {
+  background: #328EEA;
+}
+
+.wrapper {
+  background: #328EEA;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top {
+  float: right;
+}
+
+.footer-nav {
+  display: none;
+}
+
+.main-footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: black;
+  margin: 0 auto;
+  background-color: #328EEA;
+}
+
+.main-footer li,
+.main-footer h1 {
+  font-size: 1.2em;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer-name {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.top {
+  float: right;
+}
+
+/* Media Queries ---------------*/
+/* Tablet ---------------*/
+@media (min-width: 768px) {
+
+.name {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.main-nav li {
+  font-size: 15px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-top: 40px;
+  display: inline;
+  background-color: transparent;
+}
+
+.main-nav ul {
+  margin-left: 50px;
+  padding-left: 10%;
+}
+
+.nav a {
+  display: inline;
+  font-size: 10px;
+  margin: 40px 25px;
+  padding: 15px 15px;
+  width: 100%;
+}
+
+.profile-img {
+  float:right;
+  width: 28%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.intro p {
+  text-align: left;
+  font-size: 18px;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+
+.intro h1 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-top: 70px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  padding: 14px;
+  background-color: white;
+}
+
+.footer-nav {
+  display: block;
+  float: right;
+}
+
+.top {
+  display: none;
+}
+
+.wrap {
+  min-height: 100vh;
+}
+
+.contact {
+  display: inline-block;
+  width: 100%;
+}
+
+}
+/* Desktop ---------------*/
+
+@media (min-width: 1024px) {
+
+.wrapper {
+  max-width: 1285;
+  margin: 0 auto;
+}
+
+.main-header {
+  position: fixed;
+  width: 100%;
+  display: inline;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(#193496, white);;
+  box-shadow: 0 1px 4px;
+  top: 0;
+  left: 0;
+}
+
+.name {
+  display: inline;
+  text-align: left;
+  margin-right: 0;
+  padding-right: 0;
+  color: maroon;
+}
+
+.main-nav li {
+  float: right;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  background-color: transparent;
+  width: 20%;
+}
+
+.main-nav ul {
+padding: 0;
+margin-bottom: 0;
+}
+
+.nav a {
+  font-size: 1.2em;
+  color: maroon;
+  font-weight: 700;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.nav a {
+  box-shadow: none;
+}
+
+.intro {
+  padding-top: 100px;
+}
+
+.intro h1 {
+  padding-top: 150px;
+}
+
+.col {
+  width: 33.3%;
+}
+}
+.main-content {
+  background-color: white;
+  height: 100%;
+}
+.footer {
+  background-color: white;
+}
+
+.footer-nav li {
+  display: block;
+  float: right;
+}
+
+.wrap {
+  min-height: 100vh;
+}
+
+}
+/* Float Clearfix ---------------*/
+
+.clearfix::after {
+  content:"";
+  display: table;
+  clear: both;
+}
